@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './index.css';
 import TopBar from './components/TopBar';
 import Swiper from '../../components/Swiper';
+import MovieItem from './components/MovieItem';
 
 class Home extends Component {
 
@@ -21,6 +22,14 @@ class Home extends Component {
             <div className='home'>
                 <TopBar city='杭州' showCityLayer={this.showCityLayer}/>
                 <Swiper imgs={this.imgs}/>
+                <ul className='home__content '>
+                    <li><MovieItem/></li>
+                    <li><MovieItem/></li>
+                    <li><MovieItem/></li>
+                    <li><MovieItem/></li>
+                    <li><MovieItem/></li>
+                </ul>
+                
             </div>
         );
     }
