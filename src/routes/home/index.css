@@ -1,9 +1,7 @@
-.home {
-  color: red; }
-  .home__content {
-    padding: 0 20px;
-    margin: 0; }
-    .home__content li {
-      list-style: none; }
-      .home__content li:nth-child(n + 2) {
-        border-top: 1px solid #e4e2e2; }
+.home__content {
+  padding: 0 20px;
+  margin: 0; }
+  .home__content li {
+    list-style: none; }
+    .home__content li:nth-child(n + 2) {
+      border-top: 1px solid #e4e2e2; }

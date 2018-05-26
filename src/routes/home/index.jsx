@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './index.css';
+import TabMenu from '../../components/TabMenu';
 import TopBar from './components/TopBar';
 import Swiper from '../../components/Swiper';
 import MovieItem from './components/MovieItem';
@@ -29,7 +30,7 @@ class Home extends Component {
                     <li><MovieItem/></li>
                     <li><MovieItem/></li>
                 </ul>
-                
+                <TabMenu current='movie'/>
             </div>
         );
     }
