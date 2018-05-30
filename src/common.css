@@ -24,3 +24,20 @@
   color: #fff;
   font-size: 12px;
   border: none; }
+
+.tOperator {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  line-height: 40px; }
+  .tOperator__icon {
+    width: 40px;
+    height: 40px; }
+  .tOperator__icon--setting {
+    background: transparent url("./icons/setting.png") left center/20px 20px no-repeat; }
+  .tOperator__icon--message {
+    background: transparent url("./icons/message.png") right center/20px 20px no-repeat; }
+  .tOperator__icon--back {
+    background: transparent url("./icons/back.png") left center/20px 20px no-repeat; }
+  .tOperator__icon--share {
+    background: transparent url("./icons/share.png") right center/20px 20px no-repeat; }

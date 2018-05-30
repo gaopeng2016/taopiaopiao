@@ -1,5 +1,11 @@
+```
+react 文档：http://www.css88.com/react/docs/hello-world.html
+sass  文档：https://www.w3cplus.com/preprocessor/sass-basic-syntax-and-features.html
+mock  网站: www.easy-mock.com
 eslint官网 ： eslint.cn
 Normalize.css 样式的一致性, 基础css
+```
+
 
 React：
     1. 声明式的视图渲染
@@ -24,3 +30,8 @@ react-router
     1. 默认是inclusive 模式 就是贪婪匹配
     2. route exact 单个理由 精准匹配 exclusive
     3. switch 只匹配第一个匹配的字符串 
+
+
+
+
+

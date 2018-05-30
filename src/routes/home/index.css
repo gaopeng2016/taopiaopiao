@@ -1,6 +1,5 @@
 .home__content {
-  padding: 0 20px;
-  margin: 0; }
+  padding: 0 20px 49px; }
   .home__content li {
     list-style: none; }
     .home__content li:nth-child(n + 2) {

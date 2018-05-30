@@ -1,0 +1,40 @@
+@import '../../../util'
+
+.artist
+    &__list
+        display: flex
+        flex-wrap: nowrap
+        list-style: none
+        padding: 0
+        overflow-x: scroll
+        -webkit-overflow-scrolling: touch
+        &::-webkit-scrollbar
+            display: none
+
+    &__item
+        &:nth-child(n + 2)
+            margin-left: 10px
+.artistInfo
+    width: 80px
+    display: block
+    text-align: center
+    text-decoration: none
+
+    &__image
+        width: 80px
+        height: 110px
+        background: #ccc
+
+    &__name,
+    &__job
+        margin: 0
+
+    &__name
+        font-size: 14px
+        color: $black
+        margin: 10px 0
+
+    &__job
+        font-size: 12px
+        color: $gray
+        margin: 0

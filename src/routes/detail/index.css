@@ -1,0 +1,17 @@
+@import url(../../common.css);
+.detail__top {
+  background: #d4b267;
+  padding: 0 20px; }
+
+.detail__content {
+  padding: 0 20px; }
+
+.detail__module {
+  padding: 14px 0; }
+  .detail__module:nth-child(n + 2) {
+    border-top: 1px solid #e4e2e2; }
+
+.module__title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0; }
